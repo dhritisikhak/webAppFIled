@@ -1,0 +1,54 @@
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #595957;
+} 
+
+.marginWidth{
+   margin-left: 40px;
+   margin-right: 40px;
+}
+
+@media only screen and (min-width:1366px){
+    .footertext{
+        font-size: 18px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1365px){
+    .footertext{
+        font-size: 14px;
+        color: #ffffff;
+    }
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:1024px){
+    .footertext{
+        font-size: 14px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .footertext{
+        font-size: 9px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width:567px) and (max-width:767px){
+    .footertext{
+        font-size: 8px;
+        color: #ffffff;
+    }
+}
+
+.footertextMob{
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}

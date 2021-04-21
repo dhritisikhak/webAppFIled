@@ -1,0 +1,593 @@
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+} 
+
+#toast {
+    width: 25%;
+    height: 35px;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    font-size: 14px;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width:566px){
+    .marginWidth{
+        margin-left: 0px;
+        margin-right: 0px;
+     }
+    .margintopDiv{
+        position: relative;
+        top: 60px;
+    }
+
+    #toast {
+        width: 40%;
+    }
+
+    .margintopDivImg{
+        display: none;
+    }
+
+    .titleText{
+        font-size: 24px;
+        color: black;
+        line-height: 29px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .subText{
+        font-size: 16px;
+        color: black;
+        line-height: 21px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bottommarginofdiv{
+        margin-bottom: 80px;
+    }
+    .cardDiv{
+        position: relative;
+        background-color: #FBFBFB;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 30px;
+    }
+    .buttonClassForm{
+        width: 102%;
+        height: 42px;
+        background: linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .formText{
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+    }
+    .cardTitle{
+        font-size: 24px;
+        color: black;
+        line-height: 29px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardSubTitle{
+        font-size: 16px;
+        color: black;
+        line-height: 21px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:1366px){
+
+    .budgetClass{
+        width: 100%;
+        border: 1px solid gray;
+        height: 25px;
+    }
+   
+    .yesNoForm{
+        font-size: 14px;
+        color: black;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .buttonClassForm:disabled{
+        opacity: 0.8;
+        cursor:default;
+    }
+    .buttonClassForm{
+        width: 102%;
+        height: 42px;
+        background: linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .cardDiv{
+        width: 400px;
+        position: relative;
+        left: 15%;
+        background-color: #FBFBFB;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 30px;
+    }
+    .margintopDiv{
+        position: relative;
+        top: 60px;
+    }
+
+    .bottommarginofdiv{
+        margin-bottom: 30px;
+    }
+
+    .margintopDivImg{
+        position: relative;
+        top: 100px;
+        margin-bottom: 100px;
+        width: 80%;
+    }
+
+    .formText{
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        margin-bottom:5px;
+    }
+
+    .titleText{
+        font-size: 36px;
+        color: black;
+        line-height: 42px;
+        font-weight: 600;
+    }
+
+    .subText{
+        font-size: 22px;
+        color: black;
+        line-height: 27px;
+        font-weight: 600;
+    }
+
+    .cardTitle{
+        font-size: 24px;
+        color: black;
+        line-height: 29px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardSubTitle{
+        font-size: 16px;
+        color: black;
+        line-height: 21px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1365px){
+
+  
+    .budgetClass{
+        width: 100%;
+        border: 1px solid gray;
+        height: 25px;
+    }
+   
+    .yesNoForm{
+        font-size: 14px;
+        color: black;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .buttonClassForm:disabled{
+        opacity: 0.8;
+        cursor:default;
+    }
+    .buttonClassForm{
+        width: 102%;
+        height: 42px;
+        background: linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .cardDiv{
+        width: 400px;
+        position: relative;
+        left: 15%;
+        background-color: #FBFBFB;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 30px;
+    }
+    .margintopDiv{
+        position: relative;
+        top: 60px;
+    }
+
+    .bottommarginofdiv{
+        margin-bottom: 30px;
+    }
+
+    .margintopDivImg{
+        position: relative;
+        top: 100px;
+        margin-bottom: 100px;
+        width: 80%;
+    }
+
+    .formText{
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        margin-bottom:5px;
+    }
+
+    .titleText{
+        font-size: 36px;
+        color: black;
+        line-height: 42px;
+        font-weight: 600;
+    }
+
+    .subText{
+        font-size: 22px;
+        color: black;
+        line-height: 27px;
+        font-weight: 600;
+    }
+
+    .cardTitle{
+        font-size: 24px;
+        color: black;
+        line-height: 29px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardSubTitle{
+        font-size: 16px;
+        color: black;
+        line-height: 21px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1024px){
+
+    .budgetClass{
+        width: 100%;
+    /* margin-top: 5px;
+    margin-bottom: 10px; */
+    border: 1px solid gray;
+    height: 25px;
+    }
+   
+    .yesNoForm{
+        font-size: 14px;
+        color: black;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .buttonClassForm:disabled{
+        opacity: 0.8;
+        cursor:default;
+    }
+    .buttonClassForm{
+        width: 102%;
+        height: 42px;
+        background: linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .cardDiv{
+        width: 400px;
+        position: relative;
+    left: 5%;
+    background-color: #FBFBFB;
+box-shadow: 0px 4px 20px #00000029;
+border-radius: 30px;
+    }
+    .margintopDiv{
+        position: relative;
+        top: 60px;
+    }
+
+    .bottommarginofdiv{
+        margin-bottom: 30px;
+    }
+
+    .margintopDivImg{
+        position: relative;
+        top: 100px;
+        margin-bottom: 100px;
+        width: 80%;
+    }
+    .formText{
+        font-size: 14px;
+        color: black;
+        /* line-height: 18px; */
+        font-weight: 600;
+        margin-bottom:5px;
+    }
+
+    .titleText{
+        font-size: 36px;
+        color: black;
+        line-height: 42px;
+        font-weight: 600;
+    }
+
+    .subText{
+        font-size: 22px;
+        color: black;
+        line-height: 27px;
+        font-weight: 600;
+    }
+
+    .cardTitle{
+        font-size: 24px;
+        color: black;
+        line-height: 29px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardSubTitle{
+        font-size: 16px;
+        color: black;
+        line-height: 21px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .bottommarginofdiv{
+        position: relative;
+    top: 35px;
+    margin-bottom: 120px
+    }
+    .budgetClass{
+        width: 100%;
+        border: 1px solid gray;
+        height: 25px;
+    }
+   
+    .yesNoForm{
+        font-size: 14px;
+        color: black;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .buttonClassForm:disabled{
+        opacity: 0.8;
+        cursor:default;
+    }
+    .buttonClassForm{
+        width: 102%;
+        height: 42px;
+        background: linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .cardDiv{
+        width: 300px;
+        position: relative;
+        background-color: #FBFBFB;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 30px;
+    }
+    .margintopDiv{
+        position: relative;
+        top: 40px;
+    }
+
+    .bottommarginofdiv{
+        margin-bottom: 110px;
+    }
+
+    .margintopDivImg{
+        position: relative;
+        top: 100px;
+        margin-bottom: 120px;
+        width: 80%;
+    }
+
+    .formText{
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        margin-bottom:5px;
+    }
+
+    .titleText{
+        font-size: 28px;
+        color: black;
+        line-height: 33px;
+        font-weight: 600;
+    }
+
+    .subText{
+        font-size: 18px;
+        color: black;
+        line-height: 23px;
+        font-weight: 600;
+    }
+
+    .cardTitle{
+        font-size: 22px;
+        color: black;
+        line-height: 27px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardSubTitle{
+        font-size: 14px;
+        color: black;
+        line-height: 19px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:567px) and (max-width:767px){
+
+    .bottommarginofdiv{
+        position: relative;
+        top: 35px;
+        margin-bottom: 60px
+    }
+
+    .budgetClass{
+        width: 100%;
+        border: 1px solid gray;
+        height: 25px;
+    }
+   
+    .yesNoForm{
+        font-size: 14px;
+        color: black;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .buttonClassForm:disabled{
+        opacity: 0.8;
+        cursor:default;
+    }
+    .buttonClassForm{
+        width: 102%;
+        height: 42px;
+        background: linear-gradient(180deg, #FF6E4E 0%, #FF6E4E 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 8px #00000029;
+        opacity: 1;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .cardDiv{
+        width: 300px;
+        position: relative;
+        background-color: #FBFBFB;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 30px;
+    }
+    .margintopDiv{
+        position: relative;
+        top: 40px;
+    }
+
+    .bottommarginofdiv{
+        margin-bottom: 100px;
+    }
+
+    .margintopDivImg{
+        position: relative;
+        top: 100px;
+        margin-bottom: 120px;
+        width: 80%;
+    }
+
+    .formText{
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        margin-bottom:5px;
+    }
+
+    .titleText{
+        font-size: 28px;
+        color: black;
+        line-height: 33px;
+        font-weight: 600;
+    }
+
+    .subText{
+        font-size: 18px;
+        color: black;
+        line-height: 23px;
+        font-weight: 600;
+    }
+
+    .cardTitle{
+        font-size: 22px;
+        color: black;
+        line-height: 27px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .cardSubTitle{
+        font-size: 14px;
+        color: black;
+        line-height: 19px;
+        font-weight: 400;
+        text-align: center;
+    }
+}

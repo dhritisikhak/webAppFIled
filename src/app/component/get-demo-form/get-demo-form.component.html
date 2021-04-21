@@ -1,0 +1,43 @@
+<div class="uk-card cardDiv uk-card-body uk-width-1-2@m">
+    <p class="cardTitle">
+        We’ll be in touch to get your trial set up.
+    </p>
+    <p class="cardSubTitle">
+        Fill Out Form
+    </p>
+   
+    <div>
+
+  <form [formGroup]="customerForm" (ngSubmit)="onSubmitForm()"
+  style="position:relative; top: 20px;"
+  class="customerFormStyle">
+
+  <input type="text" formControlName="firstName" 
+  class="inputClass"
+  placeholder="First Name*">
+
+  <input type="text" formControlName="lastName"
+  class="inputClass"
+  placeholder="Last Name*">
+
+  <input type="text" formControlName="email"
+  class="inputClass"
+  placeholder="email*">
+
+  <input type="number" formControlName="budget"
+  class="inputClass"
+  placeholder="Monthly Advertising Budget*">
+
+  <input type="number" formControlName="phone"
+  class="inputClass"
+  placeholder="Contact*">
+
+  <div class="uk-text-center">
+    <button type="submit" [disabled]="!customerForm.valid"
+    class="buttonClassForm">Get Free Trial</button>
+  </div>
+
+  </form>
+
+    </div>
+</div>

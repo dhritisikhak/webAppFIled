@@ -1,0 +1,20 @@
+.logoClass{
+    width: 158px;
+    height: 54px;
+}
+
+.headerTop{
+    margin-top: 60px;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow: hidden;
+    width: 100%;
+} 
+
+.marginWidth{
+   margin-left: 40px;
+   margin-right: 40px;
+}
